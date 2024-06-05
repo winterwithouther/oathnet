@@ -41,13 +41,88 @@ function Homepage() {
             </div>
             <div id="pricing-container">
                 <div className="pricing-section">
-                    <span>Bruh</span>
+                    <span className="pricing-option">Free</span>
+                    <div className="pricing-display">
+                        <span className="actual-price">$0</span>
+                        <span className="per-month">per month</span>
+                    </div>
+                    <div className="availability-container">
+                        <div className="availables">
+                            <span class="material-symbols-outlined">check</span>
+                            <span>10 searches</span>
+                        </div>
+                        <div className="availables">
+                            <span class="material-symbols-outlined">check</span>
+                            <span>Email lookup</span>
+                        </div>
+                        <div className="availables">
+                            <span class="material-symbols-outlined">close</span>
+                            <span>View Results</span>
+                        </div>
+                        <div className="availables">
+                            <span class="material-symbols-outlined">close</span>
+                            <span>API access</span>
+                        </div>
+                    </div>
+                    <div className="get-started-container">
+                        <button>Get Started</button>
+                    </div>
                 </div>
                 <div className="pricing-section">
-                    <span>Hello</span>
+                    <span className="pricing-option">Pro</span>
+                    <div className="pricing-display">
+                        <span className="actual-price">$19.99</span>
+                        <span className="per-month">per month</span>
+                    </div>
+                    <div className="availability-container">
+                        <div className="availables">
+                            <span class="material-symbols-outlined">check</span>
+                            <span>10 searches</span>
+                        </div>
+                        <div className="availables">
+                            <span class="material-symbols-outlined">check</span>
+                            <span>Email lookup</span>
+                        </div>
+                        <div className="availables">
+                            <span class="material-symbols-outlined">close</span>
+                            <span>View Results</span>
+                        </div>
+                        <div className="availables">
+                            <span class="material-symbols-outlined">close</span>
+                            <span>API access</span>
+                        </div>
+                    </div>
+                    <div className="get-started-container">
+                        <button>Get Started</button>
+                    </div>
                 </div>
                 <div className="pricing-section">
-                    <span>hello</span>
+                    <span className="pricing-option">Enterprise</span>
+                    <div className="pricing-display">
+                        <span className="actual-price">$189.99</span>
+                        <span className="per-month">per month</span>
+                    </div>
+                    <div className="availability-container">
+                        <div className="availables">
+                            <span class="material-symbols-outlined">check</span>
+                            <span>10 searches</span>
+                        </div>
+                        <div className="availables">
+                            <span class="material-symbols-outlined">check</span>
+                            <span>Email lookup</span>
+                        </div>
+                        <div className="availables">
+                            <span class="material-symbols-outlined">close</span>
+                            <span>View Results</span>
+                        </div>
+                        <div className="availables">
+                            <span class="material-symbols-outlined">close</span>
+                            <span>API access</span>
+                        </div>
+                    </div>
+                    <div className="get-started-container">
+                        <button>Get Started</button>
+                    </div>
                 </div>
             </div>
         </section>
